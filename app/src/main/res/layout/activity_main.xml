@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Professional Top Header Banner -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header_gradient"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="36dp">
+
+        <TextView
+            android:id="@+id/tv_app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:text="@string/title_campus_lost_found"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_app_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="@string/welcome_subtitle"
+            android:textColor="#E2E8F0"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Welcome Info Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/bg_card"
+                android:elevation="2dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome_header"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/welcome_message"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- Buttons Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="@string/quick_actions"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <!-- Report Lost Item Button -->
+            <Button
+                android:id="@+id/btn_report_lost"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/bg_button_lost"
+                android:drawableStart="@drawable/ic_report_lost"
+                android:drawablePadding="14dp"
+                android:paddingHorizontal="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/btn_report_lost"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Report Found Item Button -->
+            <Button
+                android:id="@+id/btn_report_found"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/bg_button_found"
+                android:drawableStart="@drawable/ic_report_found"
+                android:drawablePadding="14dp"
+                android:paddingHorizontal="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/btn_report_found"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- View Items Button -->
+            <Button
+                android:id="@+id/btn_view_items"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_button_view"
+                android:drawableStart="@drawable/ic_view_items"
+                android:drawablePadding="14dp"
+                android:paddingHorizontal="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/btn_view_items"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

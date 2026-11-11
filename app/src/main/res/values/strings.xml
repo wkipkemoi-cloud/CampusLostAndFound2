@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Campus Lost and Found</string>
+    <string name="title_campus_lost_found">CAMPUS LOST &amp; FOUND</string>
+    <string name="welcome_subtitle">Campus Community Recovery Portal</string>
+    <string name="welcome_header">Welcome!</string>
+    <string name="welcome_message">Lost something or found an item on campus?\nUse this application to report and recover items efficiently.</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="btn_report_lost">Report Lost Item</string>
+    <string name="btn_report_found">Report Found Item</string>
+    <string name="btn_view_items">View Items</string>
+    <string name="report_item_title">Report Item</string>
+    <string name="reported_items_title">Reported Items</string>
+    <string name="item_name_label">Item Name</string>
+    <string name="category_label">Category</string>
+    <string name="phone_number_label">Phone Number / Contact</string>
+    <string name="description_label">Description</string>
+    <string name="date_label">Date</string>
+    <string name="location_label">Location</string>
+    <string name="btn_submit">SAVE REPORT</string>
+    <string name="no_items_found">No reported items match your search.</string>
+    <string name="search_hint">Search items by name&#8230;</string>
+    <string name="filter_status_label">Status Filter</string>
+    <string name="filter_category_label">Category Filter</string>
+    <string name="btn_call_contact">Call Contact</string>
+    <string name="btn_mark_claimed">Mark as Claimed</string>
+    <string name="btn_mark_returned">Mark as Returned</string>
+    <string name="status_claimed_checked">Claimed ✓</string>
+    <string name="status_returned_checked">Returned ✓</string>
+    <string name="status_claimed">CLAIMED</string>
+    <string name="status_returned">RETURNED</string>
+    <string name="status_lost">LOST</string>
+    <string name="status_found">FOUND</string>
+    <string name="nav_back">← Back</string>
+    <string name="nav_report">+ Report</string>
+    <string name="tab_lost_item">Lost Item</string>
+    <string name="tab_found_item">Found Item</string>
+    <string name="tab_lost_items">Lost Items</string>
+    <string name="tab_claimed_items">Claimed Items</string>
+
+    <string-array name="categories_array">
+        <item>Electronics</item>
+        <item>Keys</item>
+        <item>Books &amp; Stationery</item>
+        <item>ID Cards &amp; Wallet</item>
+        <item>Clothing &amp; Accessories</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="filter_categories_array">
+        <item>All Categories</item>
+        <item>Electronics</item>
+        <item>Keys</item>
+        <item>Books &amp; Stationery</item>
+        <item>ID Cards &amp; Wallet</item>
+        <item>Clothing &amp; Accessories</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="filter_statuses_array">
+        <item>All Statuses</item>
+        <item>Lost</item>
+        <item>Found</item>
+        <item>Claimed</item>
+        <item>Returned</item>
+    </string-array>
+</resources>
